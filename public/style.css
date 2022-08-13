@@ -1,0 +1,39 @@
+body, html
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+section.display
+{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+
+    background: rgb(197, 197, 197);
+    border: .2rem solid #000;
+    border-radius: .7rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div#snake
+{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+
+    background: #000;
+    border-radius: 50%;
+
+    transition: .3s;
+}
